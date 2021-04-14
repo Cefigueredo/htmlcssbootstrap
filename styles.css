@@ -18,6 +18,63 @@ body{
   width: 500px;
   height: 300px;
 }
+.card-img-roy{
+  position: relative;
+  width: 460px;
+  height: 250px;
+  align-content: center;
+}
+.box-img-roy{
+  text-align: center;
+}
+.name{
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: lightblue;
+}
+.download{
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: blue;
+}
+.b-Home{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: yellow;
+}
+.b-Resume{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: green;
+}
+.b-Portfolio{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: blue;
+}
+.b-Contacts{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: grey;
+}
+.b-Feedback{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: orange;
+}
+.b-Blog{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: red;
+}
 .subtitulo{
   background-color: lightblue;
   font-weight: bold;
@@ -33,4 +90,33 @@ p{
 }
 .col{
   background-color: lightpink;
+}
+
+.gridus{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.cv{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.pinfo{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.val{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.modern{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.simple{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.responsive{
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

@@ -1,0 +1,12 @@
+h2,h1{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.row{
+    border-color: black;
+    background-color: rgb(95, 161, 95);
+}
+.col{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}

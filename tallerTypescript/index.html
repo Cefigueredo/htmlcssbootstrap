@@ -12,11 +12,11 @@
             <div class="row">
                     <div class="col">
                         <div class="row">
-                        <h1>Ana María Suarez</h1> 
-                    </div>
+                            <h1>Carlos Figueredo Triana</h1> 
+                        </div>
                     <div class="row">
                         <div class="imagen">
-                            <img class="img-fluid max-width: 100% height: auto" src="./avatar.png" alt="Avatar">
+                            <img class="img-fluid max-width: 100% height: auto" src="./myself.jpg" alt="Avatar">
                         </div>
                     </div>
                     <div class="row">
@@ -28,29 +28,7 @@
                                             <th><h2 class="datos">Datos Personales</h2></th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <div class="col">
-                                                <tr>
-                                                    <td>Código</td>
-                                                    <td>10234320</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Cédula</td>
-                                                    <td>12221122</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Edad</td>
-                                                    <td>25 Años</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Dirección</td>
-                                                    <td>Calle falsa 123</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Teléfono</td>
-                                                    <td>018002500</td>
-                                                </tr>
-                                        </div>
+                                    <tbody id="students">
                                     </tbody>
                                 </table>
                         </div>
@@ -69,6 +47,20 @@
                               </div>
                             </div>
                         </form>
+                        <form style="margin:10px;">
+                            <div class="form-row">
+                               <div class="col-4">
+                                   <input type="text" class="form-control" id="minimoBox" placeholder="Mín. créditos">
+                               </div>
+                               <div class="col-4">
+                                   <input type="number" class="form-control" id="maximoBox" placeholder="Máx. créditos">
+                               </div>
+                               
+                                <div class="col">
+                                    <button type="button" id="button-filterByCredits" class="btn btn-success">Aplicar</button>
+                                </div>
+                            </div>
+                       </form>
                         <table class="table">
                             <thead class="thead-dark">
                                <tr>
@@ -86,6 +78,9 @@
         </div>
         <script type="module" src="./scripts/course.js" ></script>
         <script type="module" src="./scripts/dataCourses.js" ></script>
+        <script type="module" src="./scripts/student.js"></script>
+        <script type="module" src="./scripts/dataStudents.js"></script>
         <script type="module" src="./scripts/main.js"></script>
+        
     </body>
 </html>

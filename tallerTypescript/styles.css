@@ -3,10 +3,19 @@ h2,h1{
     margin-left: 20px;
 }
 .row{
-    border-color: black;
-    background-color: rgb(95, 161, 95);
+    border-color: rgb(137, 141, 118);
+    background-color: rgb(146, 211, 146);
 }
 .col{
     margin-left: 20px;
     padding-bottom: 20px;
+}
+.img-fluid {
+    width: 300px;
+    height: 300px;
+}
+.imagen{
+    margin-left: 70px;
+    text-align: center;
+    background-color: aqua;
 }
